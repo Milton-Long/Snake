@@ -121,22 +121,6 @@ public class GamePanel extends JPanel implements Runnable,  ActionListener  {
 		public void keyPressed(KeyEvent e) { 
 			
 			int keyCode = e.getKeyCode();
-//			switch(keyCode) {
-//				case KeyEvent.VK_UP :
-//					System.out.println("Up button is pressed");
-//					break;
-//				case KeyEvent.VK_DOWN :
-//					System.out.println("Down button is pressed");
-//					break;
-//				case KeyEvent.VK_LEFT :
-//					System.out.println("Left button is pressed");
-//					break;
-//				case KeyEvent.VK_RIGHT :
-//					System.out.println("Right button is pressed");
-//					break;
-//				default:
-//					System.out.println("No button pressed");
-//			}
 			
 			if(keyCode == KeyEvent.VK_UP || keyCode == KeyEvent.VK_W) {
 				System.out.println("Up button is pressed");
@@ -156,22 +140,6 @@ public class GamePanel extends JPanel implements Runnable,  ActionListener  {
 		public void keyReleased(KeyEvent e) {  
 			
 			int keyCode = e.getKeyCode();
-//			switch(keyCode) {
-//				case (keyCode == KeyEvent.VK_UP  || keyCode == KeyEvent.VK_W):
-//					System.out.println("Up button is released");
-//					break;
-//				case KeyEvent.VK_DOWN :
-//					System.out.println("Down button is released");
-//					break;
-//				case KeyEvent.VK_LEFT :
-//					System.out.println("Left button is released");
-//					break;
-//				case KeyEvent.VK_RIGHT :
-//					System.out.println("Right button is released");
-//					break;
-//				default:
-//					System.out.println("No button released");
-//			}
 			
 			if(keyCode == KeyEvent.VK_UP || keyCode == KeyEvent.VK_W) {
 				System.out.println("Up button is released");
